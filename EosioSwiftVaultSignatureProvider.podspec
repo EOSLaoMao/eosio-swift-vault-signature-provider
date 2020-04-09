@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'EosioSwiftVaultSignatureProvider'
   s.version          = '0.2.1'
   s.summary          = 'Experimental Keychain and Secure Enclave Signature Provider for Eosio SDK for Swift.'
-  s.homepage         = 'https://github.com/EOSIO/eosio-swift-vault-signature-provider'
+  s.homepage         = 'https://github.com/EOSLaoMao/eosio-swift-vault-signature-provider'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
                            Copyright (c) 2017-2019 block.one and its contributors.  All rights reserved.
                          LICENSE
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
                          'Paul Kim' => 'paul.kim@block.one',
                          'Steve McCoole' => 'steve.mccoole@objectpartners.com',
                          'Ben Martell' => 'ben.martell@objectpartners.com' }
-  s.source           = { :git => 'https://github.com/EOSIO/eosio-swift-vault-signature-provider.git', :tag => "v" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/EOSLaoMao/eosio-swift-vault-signature-provider.git', :tag => "v" + s.version.to_s }
 
-  s.swift_version         = '5.0'
+  s.swift_version         = '5.2'
   s.ios.deployment_target = '11.3'
 
   s.source_files =  'EosioSwiftVaultSignatureProvider/**/*.{c,h,m,cpp,hpp}',
